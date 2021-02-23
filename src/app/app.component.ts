@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'am-course';
+  title = 'Angular Modules Course';
+
+  letterSelected(letter: any) {
+    console.log(`The user selected a letter ${letter}`)
+  }
 }
+
